@@ -1,10 +1,10 @@
 :root {
-    --primary: red;
+    --primary: rgb(212, 50, 245);
     --spacing: 4rem;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }    
 
 header {
@@ -43,7 +43,6 @@ article {
 h1 {
     margin-bottom: 2rem;
     font-size: 5vw;
-    font-weight: bold;
     line-height: 1.4em;
 }
 
@@ -111,7 +110,7 @@ section {
 
 .about {
     padding: var(--spacing);
-    color:white;
+    color: white;
     background-color: var(--primary);
 }
 
